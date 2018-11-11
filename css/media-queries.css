@@ -1,0 +1,145 @@
+/*
+Site:       portfolio.stevedillon.net
+Author:     Steve Dillon
+Converted:  November, 2018
+
+Table of Contents
+1.  TABLETS (max-width: 768px)
+2.  Smartphones (portrait) (max-device-width : 425px)
+3.  Smartphones (portrait) (max-device-width : 375px)
+4.  Smartphones (portrait) (max-device-width : 320px)
+5.  Smartphones (landscape) (max-device-width : 667px)
+6.  Collapse Navbar at max-width: 1200px
+7.  General Media Queries - (max-width: 1440px)
+8.  General Media Queries - (max-width: 1680px)
+9.  General Media Queries - (max-width: 1900px)
+10. General Media Queries - (max-width: 2556px)
+
+
+/* =======================================
+Branding
+======================================= */
+
+/* Brand Colors 
+
+Primary Blue: #0a3859 
+Secondary Blue: #00c1d9
+Accent Color: #FFBC00
+Site Grey: #6B6D76;
+Ice White: #f4fafe;
+*/
+
+/*  */
+
+/* ----------- TABLETS (max-width: 768px) ----------- */
+
+/* Responsive: Portrait tablets and up */
+@media screen and (max-width: 768px) {
+
+
+}
+
+/* iPads Portrait Only */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+
+}
+
+/* iPads Landscape Only ----------- */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+  /* Styles here */
+
+}
+
+/* ----------- Smartphones (portrait) (max-device-width : 425px) ----------- */
+
+@media only screen and (max-device-width : 425px) {
+
+
+}
+
+/* ----------- Smartphones (portrait) (max-device-width : 375px) ----------- */
+
+@media only screen and (max-device-width : 375px) {
+
+
+}
+
+/* ----------- Smartphones (portrait) (max-device-width : 320px) ----------- */
+
+@media only screen and (max-device-width : 320px) {
+
+
+}
+
+/* ----------- Smartphones (landscape) (max-device-width : 667px) ----------- */
+
+@media only screen and (min-width: 480px) and (max-width: 667px) {
+
+
+}
+
+@media (max-width: 850px) {
+
+  ul.nav.navbar-nav.ml-auto > li {
+    width: auto !important;
+  }
+
+}
+
+@media (max-width: 1170px) {
+
+
+}
+
+/* ----------- Collapse Navbar at max-width: 1200px ----------- */
+
+@media (max-width: 1200px) {
+  
+
+}
+
+@media (min-width: 1200px) {
+
+
+}
+
+@media (max-width: 1300px) {
+
+
+}
+
+/* ----------- General Media Queries ----------- */
+
+@media only screen and (max-width: 1440px) {
+
+
+}
+
+@media only screen and (min-device-width : 1680px) {
+
+  /* Styles here */
+
+}
+
+/* General Media Queries ----------- */
+
+@media only screen and (min-device-width : 1900px) {
+
+  /* Styles here */
+
+}
+
+@media screen and (min-width: 2556px) {
+
+
+}

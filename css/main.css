@@ -6,10 +6,8 @@ Converted:  November, 2018
 Table of Contents
 1.  GLOBAL
 2.  HEADER
-3.  HOME PAGE
-4.  FOOTER
-5.  PHOTOGRAPHER'S PAGE
-6.  EQUIPMENT PAGE
+3.  FOOTER
+4.  HOME PAGE
 
 /* =======================================
 Branding
@@ -28,9 +26,9 @@ Ice White: #f4fafe;
 GLOBAL
 ======================================= */
 
-*, *:before, *:after {
+/**, *:before, *:after {
 border: 1px solid red;
-} 
+} */
 
 
 html, body {
@@ -64,21 +62,14 @@ body {
   font-family: 'Open Sans', "Palatino Linotype", "Book Antiqua" !important;
 }
 
-.container {
-  width: 100%;
-  margin: 0px !important;
-  padding: 0px !important;
-}
-
 /* Links */
-a,
-a:focus,
-a:hover {
-  color: #fff;
+a {
+  color: #0a3859;
 }
 
 a, a:hover, a:active, a:visited {
   cursor: pointer !important;
+  text-decoration: none;
 }
 
 /* Custom default button */
@@ -95,18 +86,44 @@ a, a:hover, a:active, a:visited {
 HEADER
 ======================================= */
 
+img.logo {
+    width: 45%;
+}
+
+.navbar {
+    padding: 1% 10%;
+}
+
  .navbar-nav {
   -webkit-box-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
 }
 
-.masthead {
-  margin-bottom: 2rem;
+.navbar-light .navbar-nav .nav-link {
+    color: #0a3859 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #00c1d9 !important;
+}
+
+.navbar-brand {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  margin-right: 0rem !important;
+}
+
+header.masthead.mb-auto {
+  border-bottom: .5px solid #0a3859 ;
 }
 
 .masthead-brand {
   margin-bottom: 0;
+}
+
+.mb-auto, .my-auto {
+    margin-bottom: inherit !important;
 }
 
 .nav-masthead .nav-link {
@@ -115,6 +132,10 @@ HEADER
   color: #0a3859;
   background-color: transparent;
   border-bottom: .25rem solid transparent;
+}
+
+ul.nav.navbar-nav.ml-auto > li {
+    width: 175px;
 }
 
 .nav-masthead .nav-link:hover,
@@ -131,6 +152,10 @@ HEADER
   border-bottom-color: #fff;
 }
 
+button.navbar-toggler.collapsed {
+  border: 1px solid #0a3859;
+}
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -140,6 +165,55 @@ HEADER
   }
 }
 
+/* ---- Dropdown Menu ---- */
+
+ul.dropdown-menu {
+  border: 0px !important;
+}
+
+.navbar-nav > li > a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.dropdown ul {
+  position: absolute;
+  width: 250px;
+  top: 50px;
+  font-size: 1em;
+  border-radius: 3px;
+  left: 0px;
+  list-style: none;
+  padding: 5% 0% 6% 0%;
+  display: none;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0,0,0,.175);
+}
+
+.dropdown ul li {
+  display: block;
+  white-space: nowrap;
+  min-width: 100px;
+  height: 50px;
+}
+
+.dropdown ul li:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+
+.dropdown-menu > li > a {
+  padding: 5% 0% 10% 10%;
+  color: #0a3859;
+  display: block;
+}
+
+ul.dropdown-menu > li > a:hover {
+    color: #00c1d9;
+}
 
 /*
  * Cover
@@ -152,57 +226,67 @@ HEADER
   font-weight: 700;
 }
 
-
 /* =======================================
 FOOTER
 ======================================= */
 
-/* ---- Main Styling ----- */
-
-.container-fluid h5 {
-  font-size: 1.1em;
-  text-align: left;
+footer {
+  background: #0a3859;
 }
 
-p.footer-text {
-  color: #999999;
-  margin-bottom: 0px !important;
+footer a {
+    color: #fff;
 }
 
-p.footer-text.left {
-  text-align: left;
+footer a:hover {
+    color: #00c1d9;
 }
 
-.col-md-4.center, p.footer-text {
-  text-align: center;
+.footer.row {
+  padding: 1% 0%;
 }
 
-.col-md-4.center h5 {
-  text-align: center;
+.col.left {
+    padding-top: 5px;
 }
 
-.col-md-4.center a {
-  font-size: 1.2em;
-}
-
-.col-md-4 {
-  width: 25%;
-  margin: 2%;
-  padding-left: 0px; 
-  text-align: left;
-}
-
-.bottom.row {
-  background-color: #1B1B1B;
-  color: #CCCCCC;
-}
-
-.col-md-12 h5 {
-  float: left;
-  text-transform: uppercase;
-  margin: auto;
+.col.center {
   line-height: 50px;
-  vertical-align: middle;
+}
+
+.col.right img {
+  width: 60%;
+}
+
+.s-icons {
+  float: left;
+}
+
+.s-icons a:hover {
+    opacity: .8;
+}
+
+.s-icons a {
+  border-radius: 20px;
+  background-color: #ffffff;
+  display: inline-block;
+  width: 38px;
+  line-height: 38px;
+  color: #0a3859;
+  height: 38px;
+  padding: 0;
+  font-size: 16px;
+  margin: 5px 10px 0px 10px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.footer.section {
+  float: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Back to top Arrow */
@@ -241,65 +325,61 @@ span.glyphicon.down:hover {
   opacity: 1;
 }
 
-/* Bottom Nav Layout */
+/* =======================================
+HOME PAGE
+======================================= */
 
-.nav.footer.navbar-nav > li > a {
-  color: #CCCCCC;
+main.inner {
+  background-image: url(../images/bg/image_1_sunset.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  height: -webkit-fill-available;
+}
+
+.title-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.heading {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.heading h1 {
+  font-size: 5.5em;
+  color: #fff;
+  font-family: Raleway;
+  margin-bottom: 5%;
   text-transform: uppercase;
 }
 
-.nav.footer.navbar-nav > li > a:hover, .nav > li > a:focus {
-  background-color: transparent !important;
-  color: hsla(189, 100%, 50%, 0.68)
-}
-
-/* Contact Info */
-
-address {
-  margin-bottom: 0px !important;
-  display: block;
-  font-style: normal;
-  text-decoration: none;
-}
-
-/* Newsletter */
-
-.form-control {
-  background-color: #252323;
+a.btn.btn-lg.btn-secondary {
+  background-color: transparent;
+  color: #fff;
   border-radius: 0px;
-  color: #fff;
+  padding: .5rem 4rem;
+  text-transform: uppercase;
 }
 
-ul.footer-list {
-  float: left;
-  text-align: left;
-  list-style: none;
-  padding: 0% 1%;
-  margin: 0px;
-  color: #999999;
+/* =======================================
+PORTFOLIO PAGE
+======================================= */
+
+main.portfolio-grid {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  height: -webkit-fill-available;
 }
 
-.col-md-12 a {
-  color: #999999 !important;
-}
-
-input#mc-embedded-subscribe {
-  color: silver;
-  background: #252323;
-  padding: 2% 8%;
-}
-
-input, select, textarea{
-  color: #fff;
-}
-
-/* Instagram Grid */
-
-.col-md-4.item_box {
-  padding: 2% 0%;
-  margin: 0px;
-}
-
-.col-md-4.item_box:hover {
-  opacity: 0.8;
+.col-grid {
+  width: 30%;
+  border: 1px solid;
+  padding: 8% 10%;
+  margin: 1%;
 }

@@ -1,32 +1,44 @@
 <footer>
-  <div class="container-fluid">
-    <div class="bottom row">
-      <!-- Column 1 -->
-      <div class="col-md-12">
-        <h5><a href="index.php">© 2018 Nalu.com</a></h5>
 
-        <ul class="nav footer navbar-nav">
-          <!-- <li class="active"><a href="index.php">Home</a></li> -->
-          <li><a href="timeline.php">Timeline</a></li>
-          <li><a href="photographers.php">Photographers</a></li>
-          <li><a href="equipment.php">Equipment</a></li>
-          <li><a href="people.php">People</a></li>
-          <li><a href="share.php">Share</a></li>
-        </ul>
+  <div class="container-fluid">
+    <div class="footer row">
+      <!-- Logo -->
+      <div class="col left">
+            <a href="index.php"><img src="images/sdd_logo_footer.png" class="img-fluid" alt="Responsive image"></></a>
+      </div>
+
+      <!-- Email -->
+      <div class="col center">
+        <a href="mailto:stevedillon001@gmail.com?subject=Re: Inquiry from Steve Dillon Portfolio Website">stevedillon001@gmail.com</a> 
+      </div>
+
+      <!-- Social Icons -->
+      <div class="col right">
+        <div class="icon-wrapper">
+          <div class="s-icons">
+            <a href="https://www.facebook.com/SteveDillonDesigns/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          </div>
+
+          <div class="s-icons">
+            <a href="https://www.instagram.com/stevedillonphoto/" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+
+          <div class="s-icons">
+            <a href="https://www.linkedin.com/in/stevedillon1/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+
+          <div class="s-icons">
+            <a href="https://www.youtube.com/channel/UC6pQ6mb2dQ2cfMHYgy45nUg?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+
+          <div class="s-icons">
+            <!-- Back to top Arrow from https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ -->
+            <a id="back2Top" title="Back to top" href="#"><span class="glyphicon up"></span></a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!-- Back to top Arrow from https://html-online.com/articles/dynamic-scroll-back-top-page-button-javascript/ -->
-    <a id="back2Top" title="Back to top" href="#"><span class="glyphicon up"></span></a>
-
   </div>
-
-  <!-- ScrollMagic Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-  <script src="scripts/scrollmagic_main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
   <script>
