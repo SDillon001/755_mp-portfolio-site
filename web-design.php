@@ -12,31 +12,30 @@
     <!--Included head.php file -->
     <?php include("header.php");?>
 
-    <div class="content-wrap">
-      <div class="flex-container">
-        <div class="flex-item">
-          <a href="/web-design.php"><img src="images/port-grid/web-design.jpg" alt="web-design"></a>
-          <h5><a href="/web-design.php">Web Design</a></h5>
-        </div>
-
-        <div class="flex-item">
-          <a href="/motion-graphics.php"><img src="images/port-grid/motion.jpg" alt="motion-graphics"></a>
-          <h5><a href="/motion-graphics.php">Motion Graphics</a></h5>
-        </div>
-      </div>
-
-    <div class="flex-container">
-        <div class="flex-item">
-          <a href="/infographics.php"><img src="images/port-grid/infographics.jpg" alt="infographics"></a>
-          <h5><a href="/infographics.php">Infographics</a></h5>
-        </div>
-
-        <div class="flex-item">
-          <a href="/photo-video.php"><img src="images/port-grid/photo-video.jpg" alt="photo-video"></a>
-          <h5><a href="/photo-video.php">Photo</a></h5>
-        </div>
+    <div class="content-wrap proj-cat">
+      <div class="proj-title">
+        <h2>Web Design</h2>
       </div>
     </div>
+
+  <div class="content-wrap proj-cat content">
+      <div class="flex-container">
+        <div class="flex-item proj-cat">
+          <a href="/web-design.php"><img src="images/port-grid/web-design.jpg" alt="web-design"></a>
+          <h5><a href="/web-design.php">Nalu.Live</a></h5>
+        </div>
+
+        <div class="flex-item proj-cat">
+          <a href="/motion-graphics.php"><img src="images/port-grid/motion.jpg" alt="motion-graphics"></a>
+          <h5><a href="/motion-graphics.php">Stockpile.com</a></h5>
+        </div>
+
+        <div class="flex-item proj-cat">
+          <a href="/infographics.php"><img src="images/port-grid/infographics.jpg" alt="infographics"></a>
+          <h5><a href="/infographics.php">Surf Stars App</a></h5>
+        </div>
+    </div>
+  </div>
 
 
     <!--Included Header php file -->

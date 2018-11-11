@@ -17,10 +17,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">About</a>
+            <a class="nav-link" href="about.php">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Contact</a>
+            <a class="nav-link" href="mailto:stevedillon001@gmail.com?subject=Re: Inquiry from Steve Dillon Portfolio Website">Contact</a>
           </li>
         </ul>
       </div>
