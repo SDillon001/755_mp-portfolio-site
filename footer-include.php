@@ -40,6 +40,13 @@
     </div>
   </div>
 
+  <!-- ScrollMagic Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+  <script src="js/scrollmagic_main.js"></script>
+
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
   <script>
     ! function(A, n, g, u, l, a, r) {

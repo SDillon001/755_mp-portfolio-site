@@ -9,7 +9,7 @@
   <link rel="icon" href="favicon.ico">
 
   <!-- Bootstrap core CSS -->
-  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
   <!-- Start CSS Files -->
   <link rel="stylesheet" href="css/main.css">
@@ -20,14 +20,10 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- <script src="js/vendor/popper.min.js"></script> -->
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS File -->
   <script src="js/main.js"></script>
 
-  <!-- ScrollMagic Scripts -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-  <script src="js/scrollmagic_main.js"></script>
 </head>
