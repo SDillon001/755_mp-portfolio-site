@@ -10,7 +10,14 @@
           <li class="dropdown">
             <a class="nav-link dropdown-toggle" id="dLabel" role="button" data-toggle="dropdown" href="/portfolio.php">Portfolio <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="web-design.php">Web Design</a></li>
+              <li class="dropdown-submenu dropright"><a href="web-design.php" class="dropdown-toggle" data-toggle="dropdown">Web Design</a>
+                <ul class="dropdown-submenu-drop">
+                  <li><a href="/nalu.php">Nalu.live</a></li>
+                  <li><a href="/stockpile.php">Stockpile.com</a>
+                  <li><a href="/surf-stars.php">Surf Stars</a>
+                  </li>
+                </ul>
+              </li>
               <li><a href="motion-graphics.php">Motion Graphics</a></li>
               <li><a href="interactive-infographics.php">Interactive Infographics</a></li>
               <li><a href="photo-video.php">Photo / Video</a></li>

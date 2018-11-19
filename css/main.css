@@ -28,8 +28,8 @@ GLOBAL
 
 /**, *:before, *:after {
 border: 1px solid red;
-} */
-
+} 
+*/
 
 html, body {
   height: 100%;
@@ -60,6 +60,10 @@ body {
   padding: 0;
   color: rgba(0,0,0,1);
   font-family: 'Open Sans', "Palatino Linotype", "Book Antiqua" !important;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  color: #0a3859;
 }
 
 /* Links */
@@ -214,6 +218,77 @@ ul.dropdown-menu {
 ul.dropdown-menu > li > a:hover {
   color: #00c1d9;
 }
+
+/*-- Dropdown Submenu Modified from this Codepen: https://codepen.io/ajaypatelaj/pen/prHjD?editors=1100--*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-submenu-drop {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-submenu-drop {
+    display: block;
+}
+
+ul.dropdown-submenu-drop {
+    padding: 2% 0% !important;
+}
+
+..dropdown-submenu-drop ul li:hover {
+  background-color: #F5F5F5;
+  cursor: pointer;
+}
+
+.dropdown-submenu-drop > li > a {
+  padding: 5% 0% 10% 10%;
+  color: #0a3859;
+  display: block;
+}
+
+ul.dropdown-submenu-drop > li > a:hover {
+  color: #00c1d9;
+}
+
+.dropdown-submenu-drop>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropright .dropdown-toggle::after {
+    margin-left: 6em;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    /*left: -100%;*/
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+/*-- Dropdown Submenu End --*/
 
 /*
  * Cover
@@ -397,6 +472,11 @@ PORTFOLIO PAGE
 
 .flex-item img {
   width: 60%;
+  border: 1px solid rgba(10, 56, 89, .4);
+}
+
+.item {
+  height: auto;
 }
 
 /* =======================================
@@ -430,6 +510,10 @@ WEB DESIGN PAGE
   flex-grow: 1;
 }
 
+.flex-item.proj-cat img {
+    border: 1px solid rgba(107, 109, 118, .3);
+}
+
 /* =======================================
 ABOUT PAGE
 ======================================= */
@@ -444,6 +528,10 @@ ABOUT PAGE
   text-align: right;
 }
 
+.col-6.image img {
+  width: 60%;
+}
+
 .content-wrap.about {
   width: 90%;
   padding: 5% 0% 0% 5%;
@@ -452,6 +540,7 @@ ABOUT PAGE
 .col-6.text {
   width: 45%;
   text-align: justify;
+  padding-bottom: 2%;
 }
 
 .col-6.text h2 {
@@ -498,3 +587,96 @@ p.credits {
   text-decoration: none;
   color: #0A3859;
 }
+
+/* =======================================
+SURF STARS PAGE
+======================================= */
+
+.content-wrap.surf-stars {
+  width: 80%;
+  padding: 2% 0% 0% 5%;
+}
+
+.col-6.text h5, .program-descr {
+    font-weight: 600;
+}
+
+p.program-descr {
+    margin-bottom: 0px;
+}
+
+/*-- Project Image Grid Start --*/
+
+.grid-wrap {
+  width: 100% !important;
+  float: left;
+  margin-left: 20%;
+}
+
+.image-group {
+  float: left;
+  width: 33.3%;
+  cursor: pointer;
+  margin: .5%;
+}
+
+.image-group img {
+  width: 95%;
+}
+
+/* ---- Overlay from this Codepen: https://codepen.io/anon/pen/NOgEdY Start ----- */
+
+.content { 
+  display: block; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+.content .content-overlay {
+  background: rgba(10, 56, 89, 0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 35%;
+  opacity: 1;
+}
+
+.content-details.two-line {
+  top: 25%;
+}
+
+.content-details h4 {
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+.content-details p {
+  color: #fff;
+  font-size: 1.5em;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+hr {
+  width: 60px;
+  border: 2px solid #2eb6d1;
+}
+
+/* ---- End Overlay ----- */
+

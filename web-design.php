@@ -31,7 +31,7 @@
         </div>
 
         <div class="flex-item proj-cat">
-          <a href="/infographics.php"><img src="images/port-grid/infographics.jpg" alt="infographics"></a>
+          <a href="/surf-stars.php"><img src="images/web-design/surf-stars/surf-stars-thumb.jpg" alt="surf-stars-thumb"></a>
           <h5><a href="/infographics.php">Surf Stars App</a></h5>
         </div>
     </div>
